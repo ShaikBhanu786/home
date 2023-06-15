@@ -1,1 +1,167 @@
-Web technologies refers to the way computers/devices communicate. with each other using mark up languages. It invo It is communication. across the web, and create, deliver or manage web content using hypertext markup language (HTML).
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 17px;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+.content {
+  position: relative;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+  .bg-music{
+   position:relative;
+   top:100%;
+   left:0;
+   right:0;
+   margin:0 auto;
+}
+</style>
+</head>
+<body>
+<video autoplay muted loop id="myVideo">
+  <source src="ra.mp4" type="video/mp4">
+  </video>
+  <audio controls>
+  <source src="BST.mp3" type="audio/mpeg" />
+</audio>
+
+  <div class="content">
+<tr>
+<center><td><h1 title="[Bangtan Sonyeondan]" style="color:purple;">BTS</h1></td></center>
+<td><h1 style="color:white;">
+      BTS (Bangtan Sonyeondan), also known as the Bangtan Boys,is a South 
+    Korean boy band formed in 2013. The band consists of Jin,Suga,J-Hope,
+    RM,Jimin,V,and  Jungkook,who co-write or co-produce much of their mat
+    erial.Originally a hip hop group,their musicalstyle has evolved to in
+    corporate a wide range of genres,while their on lyrics have focused s
+    ubjects including mental health, the troubles of school-age youth and 
+    coming of age, loss,the journey towards self-love, individualism, and
+    the consequences of fame and recognition.</h1></td>
+</tr>
+<tr><center>
+<td><img src="bi.jpg" width="850" height="450"></td></center>
+
+</tr>
+<tr>
+<td ><h1 style="color:MediumSeaGreen;">BTS has produced many songs. In BTS group RM,Suga,
+Jhope are Rappers whereas Jin,Jimin,Taehyung and Jungkook are vocalists.7 normal boys in korea form bts.Now leader of bts is Kim Namjoon is also known as rm,he is the man of destruction.and Kim Seokjin 
+is World Wide Handsome and oldest person in bts.Min yoongi is also known as suga.he used to sleep and
+ he wanted to born like a stone in his next life.Jung Hoseok is also known as jhope.he is sunshine to bts,and a great dancer.Park jimin is also known as mochi.Kim Taehyung is also known as V.he is a good boy.Jeon Jungkook is also known as bunny.he is so cute and can do anything. </h1></td>
+</tr>
+<tr colspan="4">
+<td><img src="rm.gif" width="250" height="250"></td>
+<td><img src="rj.gif" width="250" height="250"></td>
+<td><img src="jhope.gif" width="250" height="250"></td>
+<td><img src="junghoseok.gif" width="250" height="250"></td>
+</tr>
+<tr colspan="3">
+<td><img src="chimmy.gif" width="250" height="250"></td>
+<td><img src="tata.gif" width="250" height="250"></td>
+<td><img src="kookie.gif" width="250" height="250"></td>
+</tr>
+<table colspan="4">
+<tr>
+<td><h2 style="color:white;">Namjoon</h2></td>
+<td><h2 style="color:white;">Jin</h2></td>
+<td><h2 style="color:white;">Suga</h2></td>
+<td><h2 style="color:white;">Jhope</h2></td>
+</tr>
+<tr>
+<td><video width="320" height="300" controls>
+  <source src="rm.mp4" type="video/mp4"></td>
+</video>
+<td><video width="320" height="300" controls>
+  <source src="jin.mp4" type="video/mp4"></td>
+</video>
+<td><video width="320" height="300" controls>
+  <source src="suga.mp4" type="video/mp4"></td>
+</video>
+<td><video width="320" height="300" controls>
+  <source src="jhope.mp4" type="video/mp4"></td>
+</video>
+</tr>
+
+<table colspan="3">
+<tr>
+<td><h2 style="color:white;">Jimin</h2></td>
+<td><h2 style="color:white;">Tae</h2></td>
+<td><h2 style="color:white;">Jk</h2></td>
+</tr>
+<tr colspan="3">
+<td><video width="320" height="300" controls>
+  <source src="jiminfunnyv.mp4" type="video/mp4"></td>
+</video>
+<td><video width="320" height="300" controls>
+  <source src="tae.mp4" type="video/mp4"></td>
+</video>
+<td><video width="320" height="300" controls>
+  <source src="jungkook.mp4" type="video/mp4"></td>
+</video>
+</tr>
+<tr>
+<td><h1 style="color:Dodgerblue;">Some of their videos:-</h1></td>
+</tr>
+<tr>
+<td><video width="320" height="300" controls>
+  <source src="jimin.mp4" type="video/mp4"></td>
+</video>
+<td><video width="320" height="300" controls>
+  <source src="taesle.mp4" type="video/mp4"></td>
+</video>
+<td><video width="320" height="300" controls>
+  <source src="bear.mp4" type="video/mp4"></td>
+</video>
+</tr>
+<tr>
+<td><video width="320" height="300" controls>
+  <source src="kookie.mp4" type="video/mp4"></td>
+</video>
+<td><video width="320" height="300" controls>
+  <source src="jungkookie.mp4" type="video/mp4"></td>
+</video>
+<td><video width="320" height="300" controls>
+  <source src="taebear.mp4" type="video/mp4"></td>
+</video>
+</tr>
+<tr>
+<td><video width="320" height="300" controls>
+  <source src="namjoon.mp4" type="video/mp4"></td>
+</video>
+<td><video width="320" height="300" controls>
+  <source src="v.mp4" type="video/mp4"></td>
+</video>
+</tr>
+<tr>
+<td><h3>Links:-</h2></td>
+</tr>
+<tr>
+<td><h3 style="white"><a href="https://run-bts.netlify.app/">Run bts</a></h3></td>
+</tr>
+<tr>
+<td><h3 style="white"><a href="https://open.spotify.com/artist/3Nrfpe0tUJi4K4DXYWgMUX">BTS songs</a></h3></td>
+</tr>
+</div>
+</table>
+</body>
+</html>
